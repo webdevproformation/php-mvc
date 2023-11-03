@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "webdevpro\\phpmvcss\\" : "./"
+            "webdevpro\\phpmvc\\" : "./"
         }
     }
 }
