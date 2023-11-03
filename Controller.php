@@ -1,15 +1,15 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core;
+namespace webdevpro\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use webdevpro\phpmvc\middlewares\BaseMiddleware;
 
 class Controller{
 
   public string $layout = "front";
   /**
-   * @var array \app\core\middlewares\BaseMiddleware[]
+   * @var array \webdevpro\phpmvc\middlewares\BaseMiddleware[]
    */
   public array $middlewares = [];
 
@@ -28,7 +28,7 @@ class Controller{
   }
 
   public function getLayout() : string {
-    /* utilisé dans la méthode layoutContent() de la class app\core\Router */
+    /* utilisé dans la méthode layoutContent() de la class webdevpro\phpmvc\Router */
     return $this->layout;
   }
 

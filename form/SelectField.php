@@ -1,9 +1,9 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core\form ;
+namespace webdevpro\phpmvc\form ;
 
-use app\core\Model;
+use webdevpro\phpmvc\Model;
 
 /**
  * 
@@ -40,13 +40,11 @@ class SelectField extends BaseField
     $html = "";
     foreach ($this->optionValues as $value) {
         if($value === $selectedValue){
-
           $html .= "<option value='$value' selected>$value</option>";
         }else {
 
           $html .= "<option value='$value'>$value</option>";
         }
-      
     }
     return $html;
   }

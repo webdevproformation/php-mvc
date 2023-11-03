@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace app\core ;
+namespace webdevpro\phpmvc ;
 
 class View{
   public string $title = "";

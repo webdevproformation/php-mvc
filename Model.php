@@ -1,7 +1,7 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core ; 
+namespace webdevpro\phpmvc ; 
 
 abstract class Model{
 

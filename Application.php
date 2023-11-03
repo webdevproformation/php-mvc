@@ -1,10 +1,10 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core;
+namespace webdevpro\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use webdevpro\phpmvc\db\Database;
+use webdevpro\phpmvc\db\DbModel;
 
 /*
 https://github.com/thecodeholic/tc-php-mvc-core/blob/master/Application.php

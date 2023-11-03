@@ -1,10 +1,10 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core;
+namespace webdevpro\phpmvc;
 
 
-use app\core\exceptions\NotFoundException;
+use webdevpro\phpmvc\exceptions\NotFoundException;
 
 class Router{
 
@@ -64,7 +64,7 @@ class Router{
     if(is_array($callbackAExecuter)){
       // initialiser le controller définit dans le router
       /**
-       * @var \app\core\Controller $instanceDuController
+       * @var \webdevpro\phpmvc\Controller $instanceDuController
        */
       $instanceDuController = new $callbackAExecuter[0]();
       // le passer à Application 

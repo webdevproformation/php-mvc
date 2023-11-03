@@ -1,9 +1,9 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core ;
+namespace webdevpro\phpmvc ;
 
-use app\core\db\DbModel ;
+use webdevpro\phpmvc\db\DbModel ;
 
 /**
  * 

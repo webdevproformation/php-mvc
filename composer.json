@@ -6,5 +6,10 @@
             "email": "malik.h@webdevpro.net"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "webdevpro\\phpmvc\\" : "./"
+        }
+    },
 }

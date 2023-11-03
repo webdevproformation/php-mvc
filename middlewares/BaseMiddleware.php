@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace app\core\middlewares ;
+namespace webdevpro\phpmvc\middlewares ;
 
 abstract class BaseMiddleware{
   abstract public function execute():void;

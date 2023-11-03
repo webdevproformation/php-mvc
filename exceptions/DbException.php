@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace app\core\exceptions ;
+namespace webdevpro\phpmvc\exceptions ;
 
 class DbException extends \Exception{
 

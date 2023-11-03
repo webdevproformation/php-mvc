@@ -1,11 +1,11 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core\middlewares ;
+namespace webdevpro\phpmvc\middlewares ;
 
-use app\core\middlewares\BaseMiddleware; 
-use app\core\exceptions\ForbiddenException;
-use app\core\Application;
+use webdevpro\phpmvc\middlewares\BaseMiddleware; 
+use webdevpro\phpmvc\exceptions\ForbiddenException;
+use webdevpro\phpmvc\Application;
 
 /**
  * 

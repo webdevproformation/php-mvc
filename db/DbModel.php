@@ -1,10 +1,10 @@
 <?php 
 declare(strict_types=1);
 
-namespace app\core\db ; 
+namespace webdevpro\phpmvc\db ; 
 
-use app\core\Model ;
-use app\core\Application ;
+use webdevpro\phpmvc\Model ;
+use webdevpro\phpmvc\Application ;
 
 /*
 
