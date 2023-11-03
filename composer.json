@@ -1,0 +1,10 @@
+{
+    "name": "webdevpro/php-mvc-core",
+    "authors": [
+        {
+            "name": "Malik H",
+            "email": "malik.h@webdevpro.net"
+        }
+    ],
+    "require": {}
+}
