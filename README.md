@@ -4,11 +4,19 @@
 composer require webdevpro/php-mvc-core
 ```
 
-## install et pouvoir réaliser des updates
+## install avec possibilité d'update depuis le dossier `vendor\webdevpro\php-mvc-core`
 
 ```bash
 composer require webdevpro/php-mvc-core --prefer-source
 ```
+
+## version sur github.com complet = core + utilisation
+
+<https://github.com/webdevproformation/php-mvc-complet>
+
+## version sur github.com core (à synchroniser avec packagist.org)
+
+<https://github.com/webdevproformation/php-mvc>
 
 ## dépôt sur packagist
 
