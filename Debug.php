@@ -29,4 +29,16 @@ class Debug{
     
   }
 
+   public static function ddd($variable){
+    //dd($variable);
+    echo "<pre>";
+    debug_print_backtrace();
+    //var_dump(debug_backtrace());
+    echo "</pre>";
+    echo "<pre>";
+    var_dump($variable);
+    echo "</pre>";
+    die();
+  }
+
 }
